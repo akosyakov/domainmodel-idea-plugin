@@ -1,0 +1,18 @@
+<idea-plugin version="2">
+	<id>org.example.domainmodel.DomainModel</id>
+	<name>DomainModel Support</name>
+	<description>
+      This plugin enables smart editing of DomainModel files.
+	</description>
+	<version>1.0.0</version>
+	<vendor>My Company</vendor>
+
+	<idea-version since-build="123.72"/>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<lang.syntaxHighlighterFactory key="org.example.domainmodel.DomainModel" implementationClass="org.example.domainmodel.domainmodel.lang.DomainModelSyntaxHighlighterFactory"/>
+		<lang.parserDefinition language="org.example.domainmodel.DomainModel" implementationClass="org.example.domainmodel.domainmodel.lang.parsing.DomainModelParserDefinition"/>
+		<fileTypeFactory implementation="org.example.domainmodel.domainmodel.lang.DomainModelFileTypeFactory"/>
+	</extensions>
+
+</idea-plugin>
