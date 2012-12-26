@@ -1,0 +1,25 @@
+import java.util.List
+
+package my.model {
+
+    entity Person {
+        name: String
+        firstName: String
+        friends: List<Person>
+        address : Address
+        op getFullName() : String {
+            return firstName + " " + name;
+        }
+        
+        op getFriendsSortedByFullName() : List<Person> {
+            return friends.sortBy( f | f.fullName);
+        }
+    }
+    
+    entity Address {
+        street: String
+        zip: String
+        city: String
+    }
+
+} 
