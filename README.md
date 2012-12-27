@@ -15,6 +15,6 @@
 3. Intellij IDEA will highlight keywords, strings, comments and syntactical errors
 
 ## Have a look at a PSI tree
-1. Open [Data.txt](https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.txt) file:
-2. This file contains a PSI tree which was generated for [Data.dmodel](https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.dmodel) file:
+1. Open [Data.txt](https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.txt) file
+2. This file contains a PSI tree which was generated for [Data.dmodel](https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.dmodel) file
 
