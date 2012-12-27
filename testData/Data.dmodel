@@ -1,5 +1,8 @@
 import java.util.List
 
+/*
+  This is block comment
+*/
 package my.model {
 
     entity Person {
@@ -7,7 +10,7 @@ package my.model {
         firstName: String
         friends: List<Person>
         address : Address
-        op getFullName() : String {
+        op getFullName() : String
             return firstName + " " + name;
         }
         
@@ -15,7 +18,9 @@ package my.model {
             return friends.sortBy( f | f.fullName);
         }
     }
-    
+
+    // entity Address
+    //TODO: this is line comment
     entity Address {
         street: String
         zip: String

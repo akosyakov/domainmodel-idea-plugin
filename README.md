@@ -13,12 +13,7 @@
 3. Intellij IDEA will highlight keywords, strings, comments and syntactical errors
 
 ## Have a look at a PSI tree
-1. Open Data.txt file
-2. This file contains a PSI tree which was generated for Data.dmodel file
-
-## Check PSI tree
-1. Remove Data.txt file
-2. Change Data.dmodel file
-3. Run DomainModelParsingTest
-4. Check Data.txt file
-5. This file contains a PSI tree which was generated for Data.dmodel file
+1. Open Data.txt file:
+https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.txt
+2. This file contains a PSI tree which was generated for Data.dmodel file:
+https://github.com/akosyakov/domainmodel-idea-plugin/blob/master/testData/Data.dmodel
